@@ -12,3 +12,4 @@ RUN mkdir -p /opt/osu-micro-benchmarks \
  && make install \
  && rm -rf /opt/osu-micro-benchmarks
 WORKDIR /usr/local/libexec/osu-micro-benchmarks/mpi/pt2pt/
+CMD ["./osu_mbw_mr"]
